@@ -1,0 +1,40 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+    width: 400px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.top img {
+    border-radius: 18px 18px 0 0;
+    -webkit-border-radius: 18px 18px 0 0;
+    -moz-border-radius: 18px 18px 0 0;
+    -ms-border-radius: 18px 18px 0 0;
+    -o-border-radius: 18px 18px 0 0;
+}
+
+.bottom {
+    padding: 30px 40px 0 40px;
+}
+
+@media screen and (max-width: 380px) {
+    .card {
+        width: 320px;
+    }
+
+    .top img {
+        width: 320px;
+    }
+}

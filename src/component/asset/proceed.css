@@ -1,0 +1,29 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 100%;
+    border: 0px;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0px 9px 14px hsl(245, 75%, 85%);
+}
+
+.proceed:hover {
+    background-color: hsl(245, 75%, 65%);;
+}

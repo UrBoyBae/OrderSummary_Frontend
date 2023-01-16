@@ -1,0 +1,32 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.cancel {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 100%;
+    border: 0px;
+    color: hsl(224, 23%, 55%);
+    padding: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.cancel h4 {
+    font-weight: 900;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
